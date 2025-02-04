@@ -1,0 +1,3 @@
+Program's parent process: Shell (bash, zsh, etc.)
+Shell's parent process: Terminal emulator (Terminal.app, gnome-terminal, etc.)
+Terminal's parent process: System process (init, systemd, etc.)

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Make sure the script prints information regardless of the directory it's run from
+echo "User ID: $(id -u)"
+echo "Primary Group ID: $(id -g)"
+echo "Group Names: $(id -Gn)"
+echo "Shell Path: $SHELL"
+echo "Home Directory: $HOME"
+echo "PATH: $PATH"
+
